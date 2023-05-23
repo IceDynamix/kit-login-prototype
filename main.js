@@ -19,7 +19,7 @@ async function setupAuth() {
     });
 
     app.use(session({
-        secret: "keyboard cat",
+        secret: config.openid.sessionSecret,
         resave: false,
         saveUninitialized: true
     }));
