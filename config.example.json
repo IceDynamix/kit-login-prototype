@@ -4,6 +4,8 @@
   },
   "openid": {
     "clientId": "",
-    "clientSecret": ""
+    "clientSecret": "",
+    "redirectUris": ["http://localhost:3000/auth/openid/callback"],
+    "sessionSecret": "honestly any sufficiently long random string will do"
   }
 }
